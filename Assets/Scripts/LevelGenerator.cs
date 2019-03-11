@@ -60,6 +60,7 @@ public class LevelGenerator : MonoBehaviour {
         }
 
         piece.transform.position = spawnPosition;
+        piece.transform.gameObject.SetActive(true);
         pieces.Add(piece);
     }
 
